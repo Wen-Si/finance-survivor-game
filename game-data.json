@@ -1,0 +1,143 @@
+{
+  "users": {
+    "8feb6b98-290c-4b32-abdc-1cd8b755b8e6": {
+      "id": "8feb6b98-290c-4b32-abdc-1cd8b755b8e6",
+      "username": "test1",
+      "passwordHash": "$2b$10$XX6vroTCeiVTjdJJP2Cp2.tT7V6LmTE1OaNKSv0l2ESK/TzlfgUd.",
+      "createdAt": 1779836806461
+    },
+    "64ad4def-8851-4662-bc3a-0a711f27b5fe": {
+      "id": "64ad4def-8851-4662-bc3a-0a711f27b5fe",
+      "username": "testuser99",
+      "passwordHash": "$2b$10$B5aehXqBBwupXQ10V8Cw/.OPeGdjO7ZE1i0kl4hnzSILgiH4aGIxa",
+      "createdAt": 1779836871564
+    },
+    "6f664bb7-5bab-4d0c-8297-ebd4b74eb219": {
+      "id": "6f664bb7-5bab-4d0c-8297-ebd4b74eb219",
+      "username": "player1",
+      "passwordHash": "$2b$10$L.d22RUAYEHqQLf5OjUNtupDb7SQLX.6x9h/73sA/Uv469XREuza6",
+      "createdAt": 1779837258773
+    }
+  },
+  "characters": {
+    "720b0d5f-4b74-416b-9fba-9c7b711ae548": {
+      "id": "720b0d5f-4b74-416b-9fba-9c7b711ae548",
+      "userId": "64ad4def-8851-4662-bc3a-0a711f27b5fe",
+      "name": "李明",
+      "personality": "果断、野心勃勃",
+      "skills": [
+        "财务建模"
+      ],
+      "careerDirection": "投资银行",
+      "background": "名校毕业",
+      "attributes": {
+        "intelligence": 57,
+        "charisma": 60,
+        "resilience": 45,
+        "ethics": 40,
+        "ambition": 76,
+        "luck": 41,
+        "financialAcumen": 54,
+        "technicalSkill": 54,
+        "networkStrength": 51,
+        "leadership": 62,
+        "compliance": 44,
+        "health": 76,
+        "mentalHealth": 81,
+        "reputation": 46,
+        "wealth": 17,
+        "stress": 37,
+        "position": "分析师",
+        "company": "金融科技公司",
+        "experience": 0,
+        "achievements": [
+          "初入职场"
+        ],
+        "failures": []
+      },
+      "currentDay": 0,
+      "isAlive": true,
+      "events": [],
+      "lastSimulated": 1779836924529,
+      "createdAt": 1779836924529
+    },
+    "e623c51c-7d73-4ed0-9896-1a98ba0aa71e": {
+      "id": "e623c51c-7d73-4ed0-9896-1a98ba0aa71e",
+      "userId": "6f664bb7-5bab-4d0c-8297-ebd4b74eb219",
+      "name": "李明",
+      "personality": "果断、野心勃勃、善于交际、冷酷理性",
+      "skills": [
+        "财务建模",
+        "估值分析",
+        "并购重组",
+        "投资组合管理"
+      ],
+      "careerDirection": "投资银行",
+      "background": "名校金融硕士毕业，进入投行领域",
+      "attributes": {
+        "intelligence": 62,
+        "charisma": 59,
+        "resilience": 61,
+        "ethics": 39,
+        "ambition": 91,
+        "luck": 50,
+        "financialAcumen": 88,
+        "technicalSkill": 61,
+        "networkStrength": 66,
+        "leadership": 57,
+        "compliance": 46,
+        "health": 78,
+        "mentalHealth": 89,
+        "reputation": 55,
+        "wealth": 24,
+        "stress": 42,
+        "position": "分析师",
+        "company": "股份制银行",
+        "experience": 0.1,
+        "achievements": [
+          "初入职场"
+        ],
+        "failures": []
+      },
+      "currentDay": 1,
+      "isAlive": true,
+      "events": [
+        {
+          "id": "evt_1_1779837263805",
+          "day": 1,
+          "category": "项目汇报",
+          "title": "[第1天] 项目汇报",
+          "description": "跨部门汇报量化策略，合规部对核心业务有一些顾虑。",
+          "aiDecision": "李明会冷静分析合规部的顾虑，用详实的数据和模型证明策略的合理性，同时利用自己高魅力值和善于交际的特点，与合规部建立良好沟通渠道，争取支持。他不会轻易放弃核心业务，而是会寻找合规与业务之间的平衡点，展示出果断而野心勃勃的一面。",
+          "consequence": "李明成功说服合规部接受量化策略，展示了出色的分析能力和沟通技巧，为部门赢得了重要业务机会，但也因坚持己见而与部分同事产生了紧张关系。",
+          "attributeChanges": {
+            "intelligence": 2,
+            "charisma": 3,
+            "resilience": 1,
+            "ethics": -1,
+            "ambition": 2,
+            "financialAcumen": 3,
+            "technicalSkill": 2,
+            "networkStrength": 2,
+            "compliance": 1,
+            "reputation": 3,
+            "wealth": 4,
+            "stress": 2
+          },
+          "timestamp": 1779837263805
+        }
+      ],
+      "lastSimulated": 1779837263805,
+      "createdAt": 1779837259325
+    }
+  },
+  "userCharacters": {
+    "8feb6b98-290c-4b32-abdc-1cd8b755b8e6": [],
+    "64ad4def-8851-4662-bc3a-0a711f27b5fe": [
+      "720b0d5f-4b74-416b-9fba-9c7b711ae548"
+    ],
+    "6f664bb7-5bab-4d0c-8297-ebd4b74eb219": [
+      "e623c51c-7d73-4ed0-9896-1a98ba0aa71e"
+    ]
+  }
+}
